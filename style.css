@@ -1,0 +1,53 @@
+/* General Styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom right, #fef6e4, #ffd1dc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Main Container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  padding: 30px 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Message */
+#main-message {
+  font-size: 2.5em;
+  color: #ff6f61;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.button {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  color: white;
+  background-color: #ff6f61;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.button:hover {
+  transform: scale(1.1);
+  background-color: #ff3b3b;
+}
+
+/* Random "I Love You" Messages */
+.random-message {
+  position: absolute;
+  font-size: 1.5em;
+  color: #ff6f61;
+  font-weight: bold;
+  pointer-events: none;
+}
